@@ -46,16 +46,30 @@ The link to the python solution: [Solution](https://github.com/vishwesh5544/vish
 Create a cron job to run the Python script at regular intervals.
 #### Solution 5:
 1. Making the python tool script executable
+
 `chmod +x <path-to-python-repo>/*`
+
 2. Setting up the crontab using `crontab -e` is as follows:
+
 ![image](https://github.com/user-attachments/assets/3498a358-2411-41be-9736-3783403f7b9c)
+
 3. Crontab log is as follows:
+
 ![image](https://github.com/user-attachments/assets/67ce162c-baa0-421d-a6df-beeab56780d0)
-4. (EXTRA POINT) I logged cron output to a file in home directory. Let's tail and see the output of running script:
+
+5. (EXTRA POINT) I logged cron output to a file in home directory. Let's tail and see the output of running script:
+
 ![image](https://github.com/user-attachments/assets/c021a6da-7552-48f2-8394-8bddc014d280)
 
 ## Task 6: Test the Setup 
 Make a new commit to the GitHub repository and check that the changes are automatically deployed.
+#### Solution 6:
+I made a commit to HTML repo. Let's see the output and deployment.
+- The tail showing script to check new commits and if commits are available to deploy to Nginx:
+![image](https://github.com/user-attachments/assets/70b9e17e-10bd-4ac1-b32d-85f74b358e97)
 
 
+## Additional Information
+- Neovim Config: I use Neovim as my text editor. You can find my configuration [here](https://github.com/vishwesh5544/neovish).
+- Operating System: I'm using Linux Pop!_OS for all my development work.
 
